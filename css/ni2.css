@@ -1,0 +1,243 @@
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+body{
+    background-image: url(../image/block2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+}
+
+header .top{
+	margin: 0 auto;
+	height: 260px;
+	background-color: black;
+}
+.cut {
+	font-size: 30px;
+	color: white;
+	z-index: 10;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+.title {
+	padding-left: 200px; 
+}
+.ks {
+	font-size: 60px;
+	color: white;
+}
+.red {
+	color: red;
+}
+.blue {
+	color: blue;
+}
+*{
+	margin: 0 auto;
+}
+.top-menu {
+	height: 60px;
+	text-align: center;
+	padding-top: 30px;
+}
+.top-menu-item{
+    float: left;
+    width: 30%;
+    list-style: none;
+    font-size: 20px;
+
+}
+.top-menu-item a{
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+	opacity: 0.5;
+}
+
+#slide {
+	width: 80%;
+	height: 560px;
+	margin-top: 30px;
+	margin-bottom: 100px;
+}
+
+.shop {
+	width: 60%;
+	background-color: black;
+	text-align: center;
+	padding: 10px;
+	color: white;
+	font-size: 40px;
+	font-family: 'Bookman Old Style',Monospace;
+}
+.gaiyo {
+	color: white;
+	background-color: #330000;
+	width: 500px;
+	height: 460px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 10%;
+	font-size: 20px;
+}
+.name {
+	font-size: 35px;
+	padding-top: 10px;
+	text-align: center;
+}
+.TEL{
+	font-size: 30px;
+	margin-top: 10px;
+	padding-left: 20px;
+}
+.adress,.accese {
+	margin-top: 20px;
+	padding-left: 10px;
+}
+.continer {
+	margin: 20px 10%;
+	height: 250px;
+}
+.continer2 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.oshiage-gaikan {
+	background-image: url('../image/oshiage gaikan3.jpg');
+	background-size: 100% 100%;
+	width: 500px;
+	height: 250px;
+	float: right;
+	background-color: white;
+	margin-right: 10%;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.isu {
+	width: 190px;
+	height: 200px;
+	float: right;
+	margin-right: 10%;
+	background-color: white;
+}
+.tennai {
+	width: 300px;
+	height: 200px;
+	float: right;
+	background-color: white;
+	margin-right: 10px;
+}
+
+.kabe {
+	height: 100px;
+	margin: 50px;
+}
+.service {
+	width: 60%;
+	background-color: black;
+	text-align: center;
+	padding: 10px;
+	color: white;
+	font-size: 40px;
+	font-family: 'Bookman Old Style',Monospace;
+	margin-bottom: 40px;
+}
+.service2 {
+	font-size: 30px;
+}
+
+.totop {
+	width: 150px;
+	height: 50px;
+	background-color: black;
+	color: white;
+	font-family: 'Bookman Old Style',Monospace;
+	float: right;
+	margin-right: 10%;
+	text-align: center;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.menu {
+	text-align: center;
+	padding: 10px auto;
+
+}
+
+#acMenu dt {
+	display: block;
+	width: 80%;
+	height: 50px;
+	background-color: #330000;
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 30px;
+    cursor: pointer;
+
+}
+#acMenu dd {
+    display: none;
+	width: 80%;
+	height: 100px;
+	background-color: orange;
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px 0;
+}
+.menuname {
+	font-size: 30px;
+	float: left;
+}
+.price {
+	float: right;
+	font-size: 20px;
+}
+.syousai {
+	margin: 10px 0;
+}
+
+#acMenu dt:hover {
+	background-color: orange;
+}
+
+.bunka {
+	width: 60%;
+	background-color: black;
+	text-align: center;
+	padding: 10px;
+	color: white;
+	font-size: 40px;
+	font-family: 'Bookman Old Style',Monospace;
+}
+.bunka-gaikan{
+	background-image: url('../image/bunka gaikan4.jpg');
+	background-size: 100% 100%;
+	width: 500px;
+	height: 250px;
+	float: right;
+	background-color: white;
+	margin-right: 10%;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+@media all and (max-width: 1119px){
+	.gaikan,.isu,.tennai,.name {
+		float: none;
+		margin-top: 10px;
+		margin-right: 10%;
+		margin-left: 10%;
+
+	}
